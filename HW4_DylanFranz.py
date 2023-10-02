@@ -13,7 +13,7 @@ if c < b:
     print("OK")
 if (a + b) == c:
     print("OK")
-if a^2 +b^2 == c^2:
+if a**2 +b**2 == c**2:
     print("OK")
 
 if a < b:
@@ -28,7 +28,7 @@ if (a + b) == c:
     print("OK")
 else:
     print("NOT OK")
-if a^2 +b^2 == c^2:
+if a**2 +b**2 == c**2:
     print("OK")
 else:
     print("NOT OK")

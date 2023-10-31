@@ -217,19 +217,19 @@ def litCricFriend(wordList, text):
     # and three lines of code. (It depends on your coding style --
     # various styles are OK.)
     return(count/len(strippedList))
-    # PROBLEM 7. Call litCricFriend() four times to find the frequency
-    # of the indefinite articles 'a' and 'an' and the definite article
-    # 'the' in the two poems above. Print out the value returned by
-    # each function call, identifying what it is. For example, it might say
-    # >>> bellsAAnFrequency 0.07265587064676617.
-    # (That is a made-up number.) Each function call takes one line.
-print(litCricFriend(['a','an'],theBells))
-print(litCricFriend(['a','an'],cantoXII))
-print(litCricFriend(['the'],theBells))
-print(litCricFriend(['the'],cantoXII))
-    # PROBLEM 8. Do the results show that Poe and Neruda use 'a' and 'an'
-    # differently? Do the results show that Poe and Neruda use 'the'
-    # differently?
+# PROBLEM 7. Call litCricFriend() four times to find the frequency
+# of the indefinite articles 'a' and 'an' and the definite article
+# 'the' in the two poems above. Print out the value returned by
+# each function call, identifying what it is. For example, it might say
+# >>> bellsAAnFrequency 0.07265587064676617.
+# (That is a made-up number.) Each function call takes one line.
+print("bellsAAnFreq", litCricFriend(['a','an'],theBells))
+print("cantoAAnFreq", litCricFriend(['a','an'],cantoXII))
+print("bellsTheFreq", litCricFriend(['the'],theBells))
+print("cantoTheFreq", litCricFriend(['the'],cantoXII))
+# PROBLEM 8. Do the results show that Poe and Neruda use 'a' and 'an'
+# differently? Do the results show that Poe and Neruda use 'the'
+# differently?
 '''
-Put your answer to PROBLEM 8 here.
+For both a/an and the, Poe uses them more frequently than Neruda
 '''

@@ -14,5 +14,3 @@ def twoWords(length, firstLetter):
     while rightStartWord[0].lower() != firstLetter.lower():
         rightStartWord = input("Enter a word beginning with " + firstLetter + " please:")
     return[rightLengthWord, rightStartWord]
-
-print(twoWords(4,'B'))

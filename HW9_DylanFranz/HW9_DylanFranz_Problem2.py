@@ -3,7 +3,6 @@ Dylan Franz
 CS 100 2023F Section H09
 HW 09, November 6, 2023
 """
-import re
 
 def file_stats(in_file):
     file = open(in_file, 'r')
